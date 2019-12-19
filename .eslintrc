@@ -19,12 +19,26 @@
     },
     "plugins": ["react"],
     "rules": {
+        "array-callback-return": ["error", {
+            "allowImplicit": true
+        }],
+        "comma-dangle": ["error", "always-multiline"],
+        "dot-location": ["error", "property"],
+        "eqeqeq": "warn",
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "single"],
-        "comma-dangle": ["error", "always-multiline"],
         "semi": "off",
         "no-var": "error",
-        "no-console": "warn",        
+        "no-alert": "error",
+        "no-console": "warn",
+        "no-implied-eval": "error",
+        "no-multi-spaces": "warn",
+        "no-setter-return": "error",
+        "no-eval": "error",
+        "no-use-before-define": "error",
+        "prefer-const": "warn",
+        "prefer-rest-params": "error",
+        "rest-spread-spacing": ["error", "never"],
         "react/no-unescaped-entities": "off"
     },
     "settings": {
