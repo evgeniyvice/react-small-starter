@@ -16,4 +16,7 @@ Start build app using Express
 
 Commit using Commitizer
 
+### `yarn test`
+
+Start your unit tests using Jest
 
