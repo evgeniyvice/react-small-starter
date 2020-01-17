@@ -2,7 +2,7 @@
     "presets": [
         "@babel/env",
         "@babel/preset-react",
-        "react-hot-loader/babel",
         "@babel/preset-typescript"
-    ]
+    ],
+    "plugins": ["react-hot-loader/babel"]
 }
