@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@hot-loader/react-dom": "^16.11.0",
+    "axios": "^0.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-hot-loader": "^4.12.18"
@@ -23,6 +24,7 @@
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.8.3",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@types/enzyme": "^3.10.4",
@@ -48,6 +50,7 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-typescript-sort-keys": "^0.5.0",
     "express": "^4.17.1",
+    "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
