@@ -18,16 +18,22 @@
         "ecmaVersion": 2020,
         "sourceType": "module"
     },
-    "plugins": ["react"],
+    "plugins": ["react", "react-hooks"],
     "rules": {
         "array-callback-return": ["error", {
             "allowImplicit": true
         }],
-        "comma-dangle": ["error", "always-multiline"],
+        "comma-dangle": [2, {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "ignore"
+        }],
         "dot-location": ["error", "property"],
         "eqeqeq": "warn",
-        "linebreak-style": ["error", "unix"],
-        "quotes": ["error", "single"],
+        "linebreak-style": "off",
+        "quotes": ["warn", "single"],
         "semi": "off",
         "no-var": "error",
         "no-alert": "error",
@@ -40,7 +46,13 @@
         "prefer-const": "warn",
         "prefer-rest-params": "error",
         "rest-spread-spacing": ["error", "never"],
-        "react/no-unescaped-entities": "off"
+        "react/no-unescaped-entities": "off",
+        "max-len": ["warn", {
+            "code": 150
+        }],
+        "max-lines": ["error", 300],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
     },
     "settings": {
         "react": {
@@ -75,15 +87,24 @@
         },
         "plugins": ["react", "@typescript-eslint"],
         "rules": {
-            "linebreak-style": ["error", "unix"],
+            "linebreak-style": "off",
             "quotes": ["error", "single"],
-            "comma-dangle": ["error", "always-multiline"],
+            "comma-dangle": [2, {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "ignore"
+            }],
             "@typescript-eslint/no-explicit-any": 0,
             "@typescript-eslint/explicit-function-return-type": "warn",
             "@typescript-eslint/member-delimiter-style": 0,
+            "@typescript-eslint/no-empty-interface": 1,
+            "@typescript-eslint/interface-name-prefix": 0,
             "no-undef": "error",
             "react/prop-types": 0,
-            "@typescript-eslint/camelcase": 0,
+            "camelcase": "off",
+            "@typescript-eslint/camelcase": 1
         },
         "settings": {
             "react": {
