@@ -1,0 +1,12 @@
+# /src/services/dbo/declarations/_server-models/*.ts
+# /src/services/charges/declarations/_server-models/*.ts
+# /src/services/contractor/declarations/_server-models/*.ts
+# /src/services/credit/declarations/_server-models/*.ts
+# /src/services/event/declarations/_server-models/*.ts
+# /src/services/mail/declarations/_server-models/*.ts
+# /src/services/print/declarations/_server-models/*.ts
+
+# swagger models
+/src/services/**/**/_server-models/*.ts
+
+/public/Web_SDK.min.js

@@ -1,22 +1,18 @@
-A small React starter with Typescript, Prettier, Husky, Eslint, Commitlint and Commitizer. Enjoy!!!
+A small React starter with Typescript, Prettier, Husky, Eslint. Enjoy!!!
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm run start`
 
 Start app in development mode
 
-### `yarn serve`
+### `npm run serve`
 
 Start build app using Express
 
-### `yarn commit`
-
-Commit using Commitizer
-
-### `yarn test`
+### `npm run test`
 
 Start your unit tests using Jest
 
