@@ -1,16 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@assets/*": ["src/assets/*"],
-      "@ui/*": ["src/ui/*"],
-      "@utils/*": ["src/utils/*"],
-      "@helpers/*": ["src/helpers/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@services/*": ["src/services/*"],
-      "@constants/*": ["src/constants/*"],
-      "@components/*": ["src/components/*"]
-   },
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
